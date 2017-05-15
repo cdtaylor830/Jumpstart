@@ -4,7 +4,8 @@ html {
   font-family: 'Open Sans';
 }
 body {
-  padding-top: 60px;
+  padding-top: 50px;
+  background-color: #f3f3f3;
 }
 
 .image-container {
@@ -75,4 +76,9 @@ body {
 .categories ul li {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
+}
+
+/* Projects */
+.projects {
+  padding-bottom: 5.85rem;
 }
