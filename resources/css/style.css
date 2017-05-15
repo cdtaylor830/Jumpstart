@@ -29,26 +29,41 @@ body {
 }
 
 /* Jumbotron */
-.jumbotron.jumbotron-bike {
-  background-image: url('../images/jumbotron-bike.jpg');
+.jumbotron {
   text-align: center;
   padding: 11.85rem 0;
 }
 
-.jumbotron.jumbotron-bike h1 {
+.jumbotron.jumbotron-bike {
+  background-image: url('../images/jumbotron-bike.jpg');
+}
+
+.jumbotron.jumbotron-beer {
+  background-image: url('../images/jumbotron-beer.jpg');
+}
+
+.jumbotron.jumbotron-flowers {
+  background-image: url('../images/jumbotron-flowers.jpg');
+}
+
+.jumbotron.jumbotron-duffel {
+  background-image: url('../images/jumbotron-duffel.jpg');
+}
+
+.jumbotron h1 {
   font-family: 'Monoton';
   font-size: 7.1rem;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.jumbotron.jumbotron-bike p {
+.jumbotron p {
   color: white;
   width: 51.3rem;
   margin: 0 auto;
 }
 
-.jumbotron.jumbotron-bike .btn {
+.jumbotron .btn {
   margin-top: 2.8rem;
   width: 11.4rem;
   padding: 1.3rem 0;
@@ -56,11 +71,11 @@ body {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron.jumbotron-bike .btn:hover {
+.jumbotron .btn:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.jumbotron.jumbotron-bike .btn:active {
+.jumbotron .btn:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
